@@ -77,7 +77,6 @@ export default function SectionHero(props) {
                         </div>
                     )}
                     <div className="cell block-content order-content" style={{textAlign: textAlign, maxWidth: textBlockWidth}}>
-                        <p>Cyril, here's the new copy location!</p>
                         {title && <h2 className="block-title" style={{color: titleColor}}>{title}</h2>}
                         {content && (
                             <div style={{color: subtitleColor}}>
